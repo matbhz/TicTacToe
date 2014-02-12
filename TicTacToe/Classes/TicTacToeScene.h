@@ -1,5 +1,5 @@
 //
-//  HelloWorldScene.h
+//  TicTacToeScene.h
 //  TicTacToe
 //
 //  Created by Matheus Felipe on 12/02/14.
@@ -16,11 +16,11 @@
 /**
  *  The main scene
  */
-@interface HelloWorldScene : CCScene
+@interface TicTacToeScene : CCScene
 
 // -----------------------------------------------------------------------
 
-+ (HelloWorldScene *)scene;
++ (TicTacToeScene *)scene;
 - (id)init;
 
 // -----------------------------------------------------------------------

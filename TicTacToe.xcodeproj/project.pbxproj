@@ -210,12 +210,8 @@
 		821D403918ABFFAC00211021 /* LICENSE_Chipmunk.txt in Resources */ = {isa = PBXBuildFile; fileRef = 821D403818ABFFAC00211021 /* LICENSE_Chipmunk.txt */; };
 		821D403D18ABFFAC00211021 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 821D403C18ABFFAC00211021 /* main.m */; };
 		821D404118ABFFAC00211021 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 821D404018ABFFAC00211021 /* AppDelegate.m */; };
-		821D404418ABFFAC00211021 /* HelloWorldScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 821D404318ABFFAC00211021 /* HelloWorldScene.m */; };
+		821D404418ABFFAC00211021 /* TicTacToeScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 821D404318ABFFAC00211021 /* TicTacToeScene.m */; };
 		821D404718ABFFAC00211021 /* IntroScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 821D404618ABFFAC00211021 /* IntroScene.m */; };
-		821D404B18ABFFAC00211021 /* NewtonScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 821D404A18ABFFAC00211021 /* NewtonScene.m */; };
-		821D404E18ABFFAC00211021 /* NewtonSphere.m in Sources */ = {isa = PBXBuildFile; fileRef = 821D404D18ABFFAC00211021 /* NewtonSphere.m */; };
-		821D405118ABFFAC00211021 /* LightBulb.m in Sources */ = {isa = PBXBuildFile; fileRef = 821D405018ABFFAC00211021 /* LightBulb.m */; };
-		821D405418ABFFAC00211021 /* Rope.m in Sources */ = {isa = PBXBuildFile; fileRef = 821D405318ABFFAC00211021 /* Rope.m */; };
 		821D405618ABFFAC00211021 /* fire.plist in Resources */ = {isa = PBXBuildFile; fileRef = 821D405518ABFFAC00211021 /* fire.plist */; };
 		821D405818ABFFAC00211021 /* fire.png in Resources */ = {isa = PBXBuildFile; fileRef = 821D405718ABFFAC00211021 /* fire.png */; };
 		821D405A18ABFFAC00211021 /* newton-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 821D405918ABFFAC00211021 /* newton-ipadhd.plist */; };
@@ -224,6 +220,8 @@
 		821D406018ABFFAC00211021 /* newton-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 821D405F18ABFFAC00211021 /* newton-ipad.png */; };
 		821D406218ABFFAC00211021 /* newton.plist in Resources */ = {isa = PBXBuildFile; fileRef = 821D406118ABFFAC00211021 /* newton.plist */; };
 		821D406418ABFFAC00211021 /* newton.png in Resources */ = {isa = PBXBuildFile; fileRef = 821D406318ABFFAC00211021 /* newton.png */; };
+		821D407318AC040600211021 /* Chalkboard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 821D407218AC040600211021 /* Chalkboard.jpg */; };
+		821D407718AC0FE400211021 /* ChalkLineTexture-iPhone-HD.png in Resources */ = {isa = PBXBuildFile; fileRef = 821D407618AC0FE400211021 /* ChalkLineTexture-iPhone-HD.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -661,19 +659,10 @@
 		821D403C18ABFFAC00211021 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Supporting Files/main.m"; sourceTree = "<group>"; };
 		821D403F18ABFFAC00211021 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		821D404018ABFFAC00211021 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
-		821D404218ABFFAC00211021 /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
-		821D404318ABFFAC00211021 /* HelloWorldScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HelloWorldScene.m; path = Classes/HelloWorldScene.m; sourceTree = "<group>"; };
+		821D404218ABFFAC00211021 /* TicTacToeScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TicTacToeScene.h; path = Classes/TicTacToeScene.h; sourceTree = "<group>"; };
+		821D404318ABFFAC00211021 /* TicTacToeScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TicTacToeScene.m; path = Classes/TicTacToeScene.m; sourceTree = "<group>"; };
 		821D404518ABFFAC00211021 /* IntroScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IntroScene.h; path = Classes/IntroScene.h; sourceTree = "<group>"; };
 		821D404618ABFFAC00211021 /* IntroScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = IntroScene.m; path = Classes/IntroScene.m; sourceTree = "<group>"; };
-		821D404818ABFFAC00211021 /* NewtonConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NewtonConstants.h; path = Classes/NewtonConstants.h; sourceTree = "<group>"; };
-		821D404918ABFFAC00211021 /* NewtonScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NewtonScene.h; path = Classes/NewtonScene.h; sourceTree = "<group>"; };
-		821D404A18ABFFAC00211021 /* NewtonScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NewtonScene.m; path = Classes/NewtonScene.m; sourceTree = "<group>"; };
-		821D404C18ABFFAC00211021 /* NewtonSphere.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NewtonSphere.h; path = Classes/NewtonSphere.h; sourceTree = "<group>"; };
-		821D404D18ABFFAC00211021 /* NewtonSphere.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NewtonSphere.m; path = Classes/NewtonSphere.m; sourceTree = "<group>"; };
-		821D404F18ABFFAC00211021 /* LightBulb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LightBulb.h; path = Classes/LightBulb.h; sourceTree = "<group>"; };
-		821D405018ABFFAC00211021 /* LightBulb.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LightBulb.m; path = Classes/LightBulb.m; sourceTree = "<group>"; };
-		821D405218ABFFAC00211021 /* Rope.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Rope.h; path = Classes/Rope.h; sourceTree = "<group>"; };
-		821D405318ABFFAC00211021 /* Rope.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Rope.m; path = Classes/Rope.m; sourceTree = "<group>"; };
 		821D405518ABFFAC00211021 /* fire.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = fire.plist; path = Resources/fire.plist; sourceTree = "<group>"; };
 		821D405718ABFFAC00211021 /* fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fire.png; path = Resources/fire.png; sourceTree = "<group>"; };
 		821D405918ABFFAC00211021 /* newton-ipadhd.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "newton-ipadhd.plist"; path = "Resources/newton-ipadhd.plist"; sourceTree = "<group>"; };
@@ -682,6 +671,8 @@
 		821D405F18ABFFAC00211021 /* newton-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "newton-ipad.png"; path = "Resources/newton-ipad.png"; sourceTree = "<group>"; };
 		821D406118ABFFAC00211021 /* newton.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = newton.plist; path = Resources/newton.plist; sourceTree = "<group>"; };
 		821D406318ABFFAC00211021 /* newton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = newton.png; path = Resources/newton.png; sourceTree = "<group>"; };
+		821D407218AC040600211021 /* Chalkboard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Chalkboard.jpg; sourceTree = "<group>"; };
+		821D407618AC0FE400211021 /* ChalkLineTexture-iPhone-HD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ChalkLineTexture-iPhone-HD.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -753,6 +744,7 @@
 		821D3DB018ABFFAA00211021 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				821D406D18AC014900211021 /* Images */,
 				821D3DB118ABFFAA00211021 /* Default.png */,
 				821D3DB318ABFFAA00211021 /* Default@2x.png */,
 				821D3DB518ABFFAA00211021 /* Default-568h@2x.png */,
@@ -1579,21 +1571,21 @@
 			children = (
 				821D403F18ABFFAC00211021 /* AppDelegate.h */,
 				821D404018ABFFAC00211021 /* AppDelegate.m */,
-				821D404218ABFFAC00211021 /* HelloWorldScene.h */,
-				821D404318ABFFAC00211021 /* HelloWorldScene.m */,
+				821D404218ABFFAC00211021 /* TicTacToeScene.h */,
+				821D404318ABFFAC00211021 /* TicTacToeScene.m */,
 				821D404518ABFFAC00211021 /* IntroScene.h */,
 				821D404618ABFFAC00211021 /* IntroScene.m */,
-				821D404818ABFFAC00211021 /* NewtonConstants.h */,
-				821D404918ABFFAC00211021 /* NewtonScene.h */,
-				821D404A18ABFFAC00211021 /* NewtonScene.m */,
-				821D404C18ABFFAC00211021 /* NewtonSphere.h */,
-				821D404D18ABFFAC00211021 /* NewtonSphere.m */,
-				821D404F18ABFFAC00211021 /* LightBulb.h */,
-				821D405018ABFFAC00211021 /* LightBulb.m */,
-				821D405218ABFFAC00211021 /* Rope.h */,
-				821D405318ABFFAC00211021 /* Rope.m */,
 			);
 			name = Classes;
+			sourceTree = "<group>";
+		};
+		821D406D18AC014900211021 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				821D407618AC0FE400211021 /* ChalkLineTexture-iPhone-HD.png */,
+				821D407218AC040600211021 /* Chalkboard.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1688,9 +1680,11 @@
 				821D405C18ABFFAC00211021 /* newton-ipadhd.png in Resources */,
 				821D3DB618ABFFAA00211021 /* Default-568h@2x.png in Resources */,
 				821D3DD618ABFFAA00211021 /* iTunesArtwork in Resources */,
+				821D407318AC040600211021 /* Chalkboard.jpg in Resources */,
 				821D406418ABFFAC00211021 /* newton.png in Resources */,
 				821D3DD118ABFFAA00211021 /* Icon-Spotlight-iOS7.png in Resources */,
 				821D3DC518ABFFAA00211021 /* Icon-76@2x.png in Resources */,
+				821D407718AC0FE400211021 /* ChalkLineTexture-iPhone-HD.png in Resources */,
 				821D403918ABFFAC00211021 /* LICENSE_Chipmunk.txt in Resources */,
 				821D3DD318ABFFAA00211021 /* Icon-Spotlight-iOS7@2x.png in Resources */,
 				821D3DC318ABFFAA00211021 /* Icon-76.png in Resources */,
@@ -1772,7 +1766,6 @@
 				821D3F2018ABFFAB00211021 /* OALAudioTrack.m in Sources */,
 				821D3E6318ABFFAA00211021 /* CCProgressNode.m in Sources */,
 				821D3E5618ABFFAA00211021 /* CCPhysicsBody.m in Sources */,
-				821D405118ABFFAC00211021 /* LightBulb.m in Sources */,
 				821D3EDB18ABFFAB00211021 /* CCWindow.m in Sources */,
 				821D3DF018ABFFAA00211021 /* CCActionProgressTimer.m in Sources */,
 				821D3FA618ABFFAC00211021 /* plane.c in Sources */,
@@ -1782,18 +1775,15 @@
 				821D3F5018ABFFAB00211021 /* OALAudioSession.m in Sources */,
 				821D3FC718ABFFAC00211021 /* CCBLocalizationManager.m in Sources */,
 				821D3EB318ABFFAB00211021 /* CCTiledMapObjectGroup.m in Sources */,
-				821D404E18ABFFAC00211021 /* NewtonSphere.m in Sources */,
 				821D3FB018ABFFAC00211021 /* vec3.c in Sources */,
 				821D3E3318ABFFAA00211021 /* CCLayoutBox.m in Sources */,
 				821D3E3018ABFFAA00211021 /* CCLayout.m in Sources */,
 				821D3F5318ABFFAB00211021 /* OALSuspendHandler.m in Sources */,
 				821D3FB218ABFFAC00211021 /* vec4.c in Sources */,
 				821D3EC418ABFFAB00211021 /* CCDirectorIOS.m in Sources */,
-				821D404B18ABFFAC00211021 /* NewtonScene.m in Sources */,
 				821D3E9B18ABFFAB00211021 /* CCSpriteFrameCache.m in Sources */,
 				821D3F5A18ABFFAB00211021 /* mach_timing.c in Sources */,
 				821D3F3E18ABFFAB00211021 /* ALListener.m in Sources */,
-				821D405418ABFFAC00211021 /* Rope.m in Sources */,
 				821D3E1718ABFFAA00211021 /* ccFPSImages.m in Sources */,
 				821D3EEE18ABFFAB00211021 /* ccUtils.c in Sources */,
 				821D3E5F18ABFFAA00211021 /* CCPhysicsShape.m in Sources */,
@@ -1805,7 +1795,7 @@
 				821D3E8A18ABFFAA00211021 /* ccShaders.m in Sources */,
 				821D3F9E18ABFFAB00211021 /* matrix.c in Sources */,
 				821D3EB018ABFFAB00211021 /* CCTiledMapLayer.m in Sources */,
-				821D404418ABFFAC00211021 /* HelloWorldScene.m in Sources */,
+				821D404418ABFFAC00211021 /* TicTacToeScene.m in Sources */,
 				821D3FA418ABFFAC00211021 /* neon_matrix_impl.c in Sources */,
 				821D3E2918ABFFAA00211021 /* CCLabelTTF.m in Sources */,
 				821D3EDE18ABFFAB00211021 /* NSEvent+CC.m in Sources */,
@@ -2045,6 +2035,7 @@
 				821D406918ABFFAC00211021 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		821D406A18ABFFAC00211021 /* Build configuration list for PBXNativeTarget "TicTacToe" */ = {
 			isa = XCConfigurationList;
@@ -2053,6 +2044,7 @@
 				821D406C18ABFFAC00211021 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

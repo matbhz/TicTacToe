@@ -374,7 +374,7 @@
 
 	}
 
-//	[_sprite visit];
+//	[sprite visit];
 }
 
 #pragma mark RenderTexture - Save Image
